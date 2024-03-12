@@ -1,6 +1,7 @@
 * {
   background-color: #1b1f24;
   color: aliceblue;
+  opacity: 0.97;
 }
 
 .main {
@@ -8,18 +9,24 @@
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  margin: 5px;
+  position: fixed;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
 }
 
 .title-box {
   display: flex;
   gap: 5px;
+  margin-left: 1em;
 }
 
 .logo {
   width: 30px;
   height: 30px;
-  margin: 20px 5px;
+  margin: 1.2em 0.5em;
 }
 
 .title {
@@ -28,13 +35,22 @@
   opacity: 0.95;
 }
 
-.content {
-  width: fit-content;
+.body {
+  display: flex;
   height: 100%;
+  margin-left: 7em;
+  margin-right: 12em;
+  margin-top: 7em;
+  justify-content: space-between;
+}
+
+.content {
+  width: 600px;
+  min-width: 450px;
+  /* Change the margin after the filling all the details. Its might need to use text-align: center in h1,h3 instead */
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: center;
 }
 
 .content h1,
@@ -47,4 +63,35 @@
 }
 .content h3 {
   font-size: 25px;
+}
+.content p {
+  font-size: 16px;
+}
+
+.portfolio-image img {
+  width: 40em;
+  height: 40em;
+  border-radius: 50%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 650px;
+}
+
+.social-media-container {
+  display: flex;
+  gap: 5px;
+}
+
+.social-media-container img {
+  width: 40px;
+  height: 40px;
+}
+
+#github-icon {
+  width: 37px;
+  height: 37px;
 }
