@@ -1,0 +1,61 @@
+.main-container {
+  display: flex;
+  height: 100%;
+  margin-left: 7em;
+  margin-right: 12em;
+  margin-top: 7em;
+  justify-content: space-between;
+}
+
+.content {
+  width: 600px;
+  min-width: 450px;
+  /* Change the margin after the filling all the details. Its might need to use text-align: center in h1,h3 instead */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.content h1,
+.content h3 {
+  margin: 5px 0;
+}
+
+.content h1 {
+  font-size: 55px;
+}
+.content h3 {
+  font-size: 25px;
+}
+.content p {
+  font-size: 16px;
+}
+
+.portfolio-image img {
+  width: 40em;
+  height: 40em;
+  border-radius: 50%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 650px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.contact-container img {
+  width: 40px;
+  height: 40px;
+}
+
+#github-icon {
+  width: 37px;
+  height: 37px;
+}

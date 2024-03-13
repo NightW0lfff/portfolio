@@ -1,7 +1,6 @@
 * {
   background-color: #1b1f24;
   color: aliceblue;
-  opacity: 0.97;
 }
 
 .main {
@@ -12,86 +11,13 @@
   position: fixed;
 }
 
-.topbar {
+.links-container {
   display: flex;
-  justify-content: space-between;
+  gap: 25px;
+  margin-right: 6em;
+  align-items: center;
 }
 
-.title-box {
-  display: flex;
-  gap: 5px;
-  margin-left: 1em;
-}
-
-.logo {
-  width: 30px;
-  height: 30px;
-  margin: 1.2em 0.5em;
-}
-
-.title {
-  text-align: center;
-  text-shadow: 0px 0px 10px #f0f8ffc4;
-  opacity: 0.95;
-}
-
-.body {
-  display: flex;
-  height: 100%;
-  margin-left: 7em;
-  margin-right: 12em;
-  margin-top: 7em;
-  justify-content: space-between;
-}
-
-.content {
-  width: 600px;
-  min-width: 450px;
-  /* Change the margin after the filling all the details. Its might need to use text-align: center in h1,h3 instead */
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.content h1,
-.content h3 {
-  margin: 5px 0;
-}
-
-.content h1 {
-  font-size: 55px;
-}
-.content h3 {
-  font-size: 25px;
-}
-.content p {
-  font-size: 16px;
-}
-
-.portfolio-image img {
-  width: 40em;
-  height: 40em;
-  border-radius: 50%;
-}
-
-.info-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 650px;
-}
-
-.social-media-container {
-  display: flex;
-  gap: 5px;
-}
-
-.social-media-container img {
-  width: 40px;
-  height: 40px;
-}
-
-#github-icon {
-  width: 37px;
-  height: 37px;
+.links-container a {
+  text-decoration: none;
 }
