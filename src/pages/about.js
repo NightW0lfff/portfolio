@@ -9,8 +9,12 @@ export default function About() {
           <h1>I'm Long Nguyen</h1>
           <h3>| Software Engineer |</h3>
           <p>
-            This is my introduction about who am I and (with about link)
-            asdasdsad adsadsadasdasd asdsad asdada sdad asdasd
+            With a background spanning from Vietnam to Australia, I am a recent
+            graduate with a degree in IT specialising in Software Engineering. I
+            create innovative solution, from web apps to automation scripts, to
+            enhance efficiency and solve puzzles. Join me on my journey as I
+            showcase my projects and continue to explore the ever-evolving world
+            of technology!
           </p>
         </div>
 
