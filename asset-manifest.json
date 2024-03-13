@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.563fbc62.css",
+    "main.js": "/portfolio/static/js/main.c98d2073.js",
+    "static/media/guru.jpeg": "/portfolio/static/media/guru.deaf0f87f65017462d2a.jpeg",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.1792ff30fb032c94685c.png",
+    "static/media/code-book.png": "/portfolio/static/media/code-book.32c82052fc5fcf6f3fc0.png",
+    "static/media/github.png": "/portfolio/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.8ff3a8e7bcd35d590115.png",
+    "static/media/facebook.png": "/portfolio/static/media/facebook.76e15b1da442c0729cbf.png",
+    "index.html": "/portfolio/index.html",
+    "main.563fbc62.css.map": "/portfolio/static/css/main.563fbc62.css.map",
+    "main.c98d2073.js.map": "/portfolio/static/js/main.c98d2073.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.563fbc62.css",
+    "static/js/main.c98d2073.js"
+  ]
+}
