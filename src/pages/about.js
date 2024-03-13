@@ -59,12 +59,11 @@ export default function About() {
         </div>
       </div>
 
-      <div className="portfolio-image">
-        <img
-          src={require("../resources/images/guru.jpeg")}
-          alt="Guru standing alone"
-        />
-      </div>
+      <img
+        className="portfolio-image"
+        src={require("../resources/images/guru.jpeg")}
+        alt="Guru standing alone"
+      />
     </div>
   );
 }

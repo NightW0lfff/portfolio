@@ -1,15 +1,13 @@
 .main-container {
   display: flex;
-  height: 100%;
-  margin-left: 7em;
-  margin-right: 12em;
-  margin-top: 7em;
+  width: 80%;
+  min-width: 60%;
+  margin: 10vh auto;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 
 .content {
-  width: 600px;
-  min-width: 450px;
   /* Change the margin after the filling all the details. Its might need to use text-align: center in h1,h3 instead */
   display: flex;
   flex-direction: column;
@@ -24,6 +22,11 @@
 .content h1 {
   font-size: 55px;
 }
+
+.content h1:first-child {
+  text-decoration: overline;
+}
+
 .content h3 {
   font-size: 25px;
 }
@@ -31,17 +34,22 @@
   font-size: 16px;
 }
 
-.portfolio-image img {
-  width: 40em;
-  height: 40em;
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  max-width: 40em;
+  max-height: 40em;
   border-radius: 50%;
+  align-self: center;
+  padding-bottom: 2em;
 }
 
 .info-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 650px;
+  margin-bottom: 1em;
+  max-width: 40em;
 }
 
 .contact-container {
