@@ -1,16 +1,18 @@
 .topbar {
   display: flex;
   justify-content: space-between;
-  margin: 0 3vw;
+  width: 90%;
+  height: auto;
+  margin: auto;
 }
 .title-box {
   display: flex;
-  gap: 5px;
+  gap: 10px;
 }
 
 .logo {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   margin-top: 1.2em;
 }
 
@@ -19,11 +21,13 @@
   text-shadow: 0px 0px 10px #f0f8ff91;
   opacity: 0.95;
   font-size: 150%;
+  text-size-adjust: auto;
 }
 
 .links-container {
   display: flex;
-  gap: 25px;
+  gap: 2.5em;
+  width: auto;
   align-items: center;
 }
 
