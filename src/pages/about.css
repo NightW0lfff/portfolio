@@ -2,9 +2,10 @@
   display: flex;
   width: 90%;
   min-width: 60%;
-  margin: 10vh auto;
+  margin: 8em auto;
   margin-bottom: 1vh;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10em;
   flex-wrap: wrap-reverse;
 }
 

@@ -1,0 +1,37 @@
+.links-container {
+  display: flex;
+  gap: 2.5em;
+  width: auto;
+  align-items: center;
+}
+
+.links-container.small {
+  flex-direction: column;
+  position: relative;
+}
+
+.links-container a {
+  text-decoration: none;
+}
+
+.list-container {
+  display: flex;
+  gap: 2em;
+}
+
+.list-container.small {
+  flex-flow: column-reverse;
+}
+
+.list-icon {
+  align-self: center;
+}
+
+.list-container.small .list-icon {
+  margin-top: 1.7em;
+  padding: 0 2em;
+}
+
+.list-icon:hover {
+  cursor: pointer;
+}

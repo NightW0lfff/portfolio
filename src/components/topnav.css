@@ -23,35 +23,3 @@
   font-size: 150%;
   text-size-adjust: auto;
 }
-
-.links-container {
-  display: flex;
-  gap: 2.5em;
-  width: auto;
-  align-items: center;
-  list-style-type: none;
-}
-
-@media screen and (max-width: 650px) {
-  .links-container {
-    display: none;
-  }
-  .list-icon {
-    width: 30px;
-    height: 30px;
-    align-self: center;
-  }
-  .list-icon:hover {
-    cursor: pointer;
-  }
-}
-
-@media screen and (min-width: 650px) {
-  .list-icon {
-    display: none;
-  }
-}
-
-.links-container a {
-  text-decoration: none;
-}

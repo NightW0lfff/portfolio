@@ -1,4 +1,5 @@
 import "./topnav.css";
+import Dropdown from "./Dropdown";
 
 export default function Topnav() {
   return (
@@ -11,18 +12,7 @@ export default function Topnav() {
         />
         <h2 className="title">Software Engineer</h2>
       </div>
-
-      <div className="links-container">
-        <a href="#">Home</a>
-        <a href="">About</a>
-        <a href="">Projects</a>
-        <a href="">Resume</a>
-      </div>
-      <img
-        className="list-icon"
-        src={require("../resources/icons/list.png")}
-        alt="list icon"
-      />
+      <Dropdown />
     </div>
   );
 }
