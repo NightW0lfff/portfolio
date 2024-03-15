@@ -18,6 +18,11 @@ export default function Topnav() {
         <a href="">Projects</a>
         <a href="">Resume</a>
       </div>
+      <img
+        className="list-icon"
+        src={require("../resources/icons/list.png")}
+        alt="list icon"
+      />
     </div>
   );
 }
