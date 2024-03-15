@@ -50,7 +50,8 @@
 .info-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 8em;
   /* margin-bottom: 1em; */
   max-width: 30em;
 }
