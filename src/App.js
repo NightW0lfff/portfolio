@@ -1,12 +1,12 @@
 import Topnav from "./components/topnav.js";
-import About from "./pages/about.js";
+import Home from "./pages/home.js";
 
 function App() {
   return (
     <div className="main">
       <Topnav />
       <div className="body">
-        <About />
+        <Home />
       </div>
     </div>
   );

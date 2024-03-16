@@ -1,6 +1,6 @@
-import "./about.css";
+import "./home.css";
 
-export default function About() {
+export default function Home() {
   return (
     <div className="main-container">
       <div className="info-container">
