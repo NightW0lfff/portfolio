@@ -1,0 +1,36 @@
+.main-container.about {
+  gap: 3em;
+  margin: 8em auto;
+  flex-wrap: wrap;
+}
+
+.about-container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 3em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-container.reverse {
+  flex-flow: row-reverse;
+  flex-wrap: wrap;
+}
+
+.about-container p {
+  width: 60%;
+}
+
+.about-container .title-image {
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  transition: border-radius 0.75s ease;
+}
+
+.about-container .title-image:hover {
+  border-radius: 5%;
+}

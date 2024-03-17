@@ -21,6 +21,9 @@ h3 {
 p {
   font-weight: 300;
 }
+a {
+  text-decoration: none;
+}
 
 .main {
   display: flex;
@@ -35,6 +38,5 @@ p {
   padding: 2%;
   position: static;
   height: auto;
-  width: 100%;
   background-color: #242b35;
 }

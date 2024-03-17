@@ -1,14 +1,14 @@
 .main-container {
   display: flex;
   margin: 5em auto;
-  margin-bottom: 1vh;
+  width: 80%;
+  min-width: 60%;
   justify-content: center;
   gap: 10em;
   flex-wrap: wrap-reverse;
 }
 
 .content {
-  /* Change the margin after the filling all the details. Its might need to use text-align: center in h1,h3 instead */
   display: flex;
   flex-direction: column;
   text-align: left;

@@ -10,10 +10,6 @@
   position: relative;
 }
 
-.links-container a {
-  text-decoration: none;
-}
-
 .list-container {
   display: flex;
   gap: 2em;
