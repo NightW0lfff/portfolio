@@ -1,9 +1,10 @@
 .topbar {
   display: flex;
   justify-content: space-between;
+  height: fit-content;
   width: 90%;
   height: auto;
-  margin: auto;
+  margin: 10px auto;
 }
 .title-box {
   display: flex;

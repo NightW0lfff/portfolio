@@ -1,9 +1,6 @@
 .main-container {
-  height: auto;
   display: flex;
-  width: 90%;
-  min-width: 60%;
-  margin: 8em auto;
+  margin: 5em auto;
   margin-bottom: 1vh;
   justify-content: center;
   gap: 10em;
@@ -45,7 +42,6 @@
   max-height: 40em;
   border-radius: 50%;
   align-self: center;
-  margin-bottom: 10vh;
 }
 
 .info-container {
