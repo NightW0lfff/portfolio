@@ -8,10 +8,10 @@ function App() {
     <div className="main">
       <Topnav />
       {/* <div className="main-container"> */}
-      <BrowserRouter basename="">
+      <BrowserRouter basename={process.env.REACT_APP_BASENAME}>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
       {/* </div> */}
