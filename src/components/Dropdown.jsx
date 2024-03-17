@@ -2,6 +2,7 @@ import "./Dropdown.css";
 import React from "react";
 import { useEffect, useState } from "react";
 import { List, X } from "@phosphor-icons/react";
+import { Link } from "react-router-dom";
 
 export default function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,10 +50,10 @@ export default function Dropdown() {
           display: isOpen ? "flex" : "none",
         }}
       >
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="">Projects</a>
-        <a href="">Resume</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="">Projects</Link>
+        <Link to="">Resume</Link>
       </div>
 
       {!isOpen ? (
