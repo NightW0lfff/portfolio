@@ -1,4 +1,5 @@
 .main-container {
+  height: auto;
   display: flex;
   width: 90%;
   min-width: 60%;

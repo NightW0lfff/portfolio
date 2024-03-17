@@ -9,12 +9,17 @@ export default function Home() {
           <h1>I'm Long Nguyen</h1>
           <h3>| Software Engineer |</h3>
           <p>
-            With a background spanning from Vietnam to Australia, I am a recent
+            {/* With a background spanning from Vietnam to Australia, I am a recent
             graduate with a degree in IT specialising in Software Engineering. I
             create innovative solution, from web apps to automation scripts, to
             enhance efficiency and solve puzzles. Join me on my journey as I
             showcase my projects and continue to explore the ever-evolving world
-            of technology!
+            of technology! */}
+            As an IT graduate specialising in Software Engineering, I am
+            dedicated to developing innovative solutions that optimise processes
+            and address complex challenges. I am enthusiastic about showcasing
+            my projects and furthering my exploration of technology's limitless
+            potential.
           </p>
         </div>
 

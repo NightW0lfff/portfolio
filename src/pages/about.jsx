@@ -1,0 +1,12 @@
+export default function About() {
+  return (
+    <div className="main-container">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae minus
+        deleniti incidunt quam non. Omnis laudantium eligendi doloribus, dicta
+        voluptatum voluptates suscipit voluptatibus ipsam maxime iusto adipisci
+        possimus amet sed.
+      </p>
+    </div>
+  );
+}

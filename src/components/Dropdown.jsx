@@ -1,4 +1,3 @@
-import "../components/topnav.js";
 import "./Dropdown.css";
 import React from "react";
 import { useEffect, useState } from "react";
@@ -50,8 +49,8 @@ export default function Dropdown() {
           display: isOpen ? "flex" : "none",
         }}
       >
-        <a href="#">Home</a>
-        <a href="">About</a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
         <a href="">Projects</a>
         <a href="">Resume</a>
       </div>
