@@ -12,7 +12,8 @@ function Header() {
         {/* Logo */}
         <Link href={"/"}>
           <h1 className="text-4xl font-semibold">
-            Long Nguyen <span className="text-accent">.</span>
+            Long Nguyen
+            <span className="text-accent animate-ping">_</span>
           </h1>
         </Link>
 
