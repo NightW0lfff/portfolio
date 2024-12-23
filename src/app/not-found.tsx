@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import WIP from "../../public/WIP.png";
+import WIP from "../../public/assets/WIP.png";
 
 function NotFound() {
   return (
