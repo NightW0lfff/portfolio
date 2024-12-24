@@ -28,14 +28,21 @@ export default function Home() {
 
             {/* btn and socials */}
             <div className="flex flex-col items-center gap-8 xl:flex-row">
-              <Button
-                variant="outline"
-                size="lg"
-                className="flex items-center gap-2 uppercase"
+              <a
+                href="/LongNguyen - SoftwareEngineer"
+                download="LongNguyen - SoftwareEngineer.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="flex items-center gap-2 uppercase"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"

@@ -145,7 +145,7 @@ function Work() {
               {/* buttons */}
               <div className="flex items-center gap-4">
                 {/* live project */}
-                <Link href={project.github}>
+                <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
