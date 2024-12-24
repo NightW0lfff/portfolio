@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   authors: { name: "Long Nguyen" },
   robots: "index, follow",
   openGraph: {
-    title: "Long Nguyen | Software Engineer Portfolio",
+    title: "Long Nguyen - Software Developer Portfolio",
     description:
-      "Showcasing Long Nguyen's skills in software engineering and web development with projects demonstrating modern tech and design expertise.",
+      "Explore the portfolio of Long Nguyen, a proficient software developer specializing in creating seamless digital experiences with modern technologies.",
     url: "https://longnguyen.tech",
     type: "website",
   },

@@ -19,9 +19,11 @@ export default function Home() {
               <span className="text-accent">Long Nguyen</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              a Software Engineer creating seamless digital experiences.
-              Proficient in programming languages and modern technologies, I
-              deliver innovative software solutions.
+              a Software Developer based in Australia with expertise in web and
+              app development. This portfolio showcases my journey, skills, and
+              the innovative solutions I’ve delivered to clients worldwide.
+              Explore my work and discover how I can bring value to your
+              projects.
             </p>
 
             {/* btn and socials */}
