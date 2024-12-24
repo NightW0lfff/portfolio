@@ -13,9 +13,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Long Nguyen | Software Engineer Portfolio",
+  title: "Long Nguyen - Software Developer Portfolio",
   description:
-    "Explore Long Nguyen's portfolio showcasing expertise in software engineering, web development, and innovative tech solutions. Let's build something great together.",
+    "Explore the portfolio of Long Nguyen, a proficient software developer specializing in creating seamless digital experiences with modern technologies.",
   keywords: [
     "Long Nguyen",
     "Software Engineer",
