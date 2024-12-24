@@ -24,10 +24,38 @@ const projects = [
   {
     num: "01",
     category: "frontend",
-    title: "project 1",
+    title: "Natours Project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto",
+      "A beautifully designed frontend project showcasing an interactive and responsive travel tour website, built with modern web technologies like HTML, CSS, and advanced animations.",
     stack: [
+      {
+        name: "Html 5",
+      },
+      {
+        name: "Css 3",
+      },
+      {
+        name: "SCSS/SASS",
+      },
+      {
+        name: "Javascript",
+      },
+    ],
+    image: "/",
+    live: "https://nightw0lfff.github.io/natours/",
+    github: "https://github.com/NightW0lfff/natours",
+  },
+  {
+    num: "02",
+    category: "fullstack",
+    title: "Pizza Menu Project",
+    description:
+      "A simple yet elegant pizza menu showcasing a clean and responsive design, perfect for displaying food options with an intuitive layout.",
+    stack: [
+      {
+        name: "React.js",
+      },
+
       {
         name: "Html 5",
       },
@@ -39,15 +67,15 @@ const projects = [
       },
     ],
     image: "/",
-    live: "",
-    github: "",
+    live: "https://pizza-menu-nn6x0pi2x-long-nguyens-projects-4cd06ab3.vercel.app/",
+    github: "https://github.com/NightW0lfff/pizza-menu",
   },
   {
-    num: "02",
-    category: "fullstack",
-    title: "project 2",
+    num: "03",
+    category: "frontend",
+    title: "Flash Card Project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto",
+      "An interactive flashcard application with a clean design, enabling efficient learning and review through a responsive and user-friendly interface.",
     stack: [
       {
         name: "React.js",
@@ -58,28 +86,13 @@ const projects = [
       {
         name: "Node.js",
       },
-    ],
-    image: "/",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    category: "frontend",
-    title: "project 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto",
-    stack: [
-      {
-        name: "Next.js",
-      },
-      {
+      /*  {
         name: "Tailwind.css",
-      },
+      }, */
     ],
     image: "/",
-    live: "",
-    github: "",
+    live: "https://nightw0lfff.github.io/flash-card/",
+    github: "https://github.com/NightW0lfff/flash-card",
   },
 ];
 
@@ -110,7 +123,7 @@ function Work() {
               </div>
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.title}
               </h2>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
