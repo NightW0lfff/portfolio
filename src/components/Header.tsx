@@ -8,8 +8,8 @@ import MobileNav from "./MobileNav";
 
 function Header() {
   return (
-    <header className="py-8 xl:py-12 text-white">
-      <div className="container mx-auto flex justify-between items-center">
+    <header className="py-8 text-white xl:py-12 max-w-[95vw] mx-auto">
+      <div className="container flex items-center justify-between mx-auto">
         {/* Logo */}
         <Link href={"/"}>
           <h1 className="text-4xl font-semibold">
@@ -19,7 +19,7 @@ function Header() {
         </Link>
 
         {/* desktop nav */}
-        <div className="hidden xl:flex items-center gap-8">
+        <div className="items-center hidden gap-8 xl:flex">
           <Nav />
           <Link href={"/contact"}>
             <Button>Hire me</Button>
