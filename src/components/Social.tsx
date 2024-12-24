@@ -9,9 +9,12 @@ interface Social {
 }
 
 const socials: Social[] = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedinIn />, path: "" },
-  { icon: <FaFacebook />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/NightW0lfff" },
+  {
+    icon: <FaLinkedinIn />,
+    path: "https://www.linkedin.com/in/long-nguyen-62a3a41b0/",
+  },
+  { icon: <FaFacebook />, path: "https://www.facebook.com/longnguyen1701" },
 ];
 
 function Social({
@@ -25,7 +28,12 @@ function Social({
     <div className={containerStyles}>
       {socials.map((item, index) => {
         return (
-          <Link key={index} href={item.path} className={iconStyles}>
+          <Link
+            key={index}
+            href={item.path}
+            target="_blank"
+            className={iconStyles}
+          >
             {item.icon}
           </Link>
         );

@@ -39,6 +39,7 @@ const Nav = () => {
         return (
           <Link
             href={link.path}
+            target="_blank"
             key={index}
             className={`${
               link.path === pathname && "text-accent border-b-2 border-accent"
