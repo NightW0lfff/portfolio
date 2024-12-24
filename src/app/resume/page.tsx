@@ -27,7 +27,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto",
+    "I’m a passionate Software Engineer dedicated to crafting innovative digital solutions, with expertise in web development, app creation, and SEO strategies.",
   info: [
     {
       fieldName: "Name",
@@ -61,7 +61,7 @@ const experience = {
   icon: "",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto",
+    "Extensive experience in software engineering, web and app development, leveraging advanced technologies to deliver impactful digital solutions.",
   items: [
     {
       company: "Business Local",
@@ -91,7 +91,7 @@ const education = {
   icon: "",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto",
+    "A strong academic foundation in IT and Software Engineering, specialising in modern programming languages, technologies, and innovative problem-solving.",
   items: [
     {
       institution: "Latrobe University",
@@ -110,7 +110,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto",
+    "Showcasing expertise in web development, app creation, software engineering, and SEO to deliver innovative and effective digital solutions.",
   skillList: [
     {
       icon: <FaHtml5 />,

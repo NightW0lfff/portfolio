@@ -1,8 +1,7 @@
 "use client";
 
-// import { delay } from "framer-motion";
-import Link from "next/link";
-import { BsArrowDownRight } from "react-icons/bs";
+/* import Link from "next/link";
+import { BsArrowDownRight } from "react-icons/bs"; */
 import { motion } from "framer-motion";
 
 const services = [
@@ -10,28 +9,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto ",
+      "Offering professional web development services to create responsive, user-friendly websites that drive traffic and enhance online visibility",
     href: "",
   },
   {
     num: "02",
     title: "App Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto ",
+      "Specialising in app development to build intuitive, high-performing mobile and web applications tailored to your business needs.",
     href: "",
   },
   {
     num: "03",
     title: "Software Engineer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto ",
+      "Experienced software engineer delivering customised, efficient, and scalable software solutions for businesses of all sizes.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "SEO Engineer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error iusto ",
+      "Boosting website rankings with advanced SEO strategies to increase online visibility, organic traffic, and lead generation.",
     href: "",
   },
 ];
@@ -50,19 +49,19 @@ function Services() {
             return (
               <div
                 key={index}
-                className="flex-1 flex flex-col justify-center gap-6 group "
+                className="flex flex-col justify-center flex-1 gap-6 group "
               >
                 {/* top */}
-                <div className="w-full flex justify-between items-center">
-                  <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
+                <div className="flex items-center justify-between w-full">
+                  <div className="text-5xl font-extrabold text-transparent transition-all duration-500 text-outline group-hover:text-outline-hover">
                     {service.num}
                   </div>
-                  <Link
+                  {/*  <Link
                     href={service.href}
                     className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
                   >
-                    <BsArrowDownRight className="text-primary text-3xl" />
-                  </Link>
+                    <BsArrowDownRight className="text-3xl text-primary" />
+                  </Link> */}
                 </div>
                 {/* title */}
                 <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
@@ -71,7 +70,7 @@ function Services() {
                 {/* description */}
                 <p className="text-white/60">{service.description}</p>
                 {/* border */}
-                <div className="border-b border-white/20 w-full"></div>
+                <div className="w-full border-b border-white/20"></div>
               </div>
             );
           })}

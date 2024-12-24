@@ -27,13 +27,15 @@ export const metadata: Metadata = {
     "Next.js",
     "JavaScript Developer",
   ],
-  // authors: "Long Nguyen",
-  // robots: "index, follow",
-  // openGraph: {
-  //   title: "Long Nguyen | Software Engineer Portfolio",
-  //   description: "Showcasing Long Nguyen's skills in software engineering and web development with projects demonstrating modern tech and design expertise.",
-  //   url: "https://longnguyen.tech",
-  //   type: "website",
+  authors: { name: "Long Nguyen" },
+  robots: "index, follow",
+  openGraph: {
+    title: "Long Nguyen | Software Engineer Portfolio",
+    description:
+      "Showcasing Long Nguyen's skills in software engineering and web development with projects demonstrating modern tech and design expertise.",
+    url: "https://longnguyen.tech",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
